@@ -56,7 +56,12 @@
         "id": "ed791e0800539a51efd07cfdef1f3a6809412bc1",
         "address": "65.109.174.30:64656",
 	      "provider": "High Stakes"
-      }
+      },
+      {
+        "id": "cb5f42c3fdbd0695b96ce11720fc23f117c120b0",
+        "address": "65.109.28.226:18656",
+	      "provider": "Hexnodes"
+      }    
     ]
   },
   "apis": {
@@ -72,6 +77,10 @@
       {
         "address": "https://rpc.terp.nodestake.top:443",
         "provider": "Nodestake.top"
+      },
+      {
+        "address": "https://rpc.terp.hexnodes.co:443",
+        "provider": "Hexnodes"
       }
     ],
     "rest": [
@@ -86,12 +95,20 @@
       {
         "address": "https://api.terp.network:443",
         "provider": "TerpNET"
+      },
+      {
+        "address": "https://lcd.terp.hexnodes.co:443",
+        "provider": "Hexnodes"
       }
     ],
     "grpc": [
       {
         "address": "https://grpc.terp.nodestake.top:443",
         "provider": "Nodestake.top"
+      },
+      {
+        "address": "https://grpc.terp.hexnodes.co:443",
+        "provider": "Hexnodes"
       }
     ]
   },
