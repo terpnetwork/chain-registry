@@ -66,6 +66,11 @@
         "id": "a81dc3bf1bb1c3837b768eeb82659eecc971890b",
         "address": "terp-mainnet-peer.itrocket.net:13656",
 	      "provider": "itrocket.net"
+      },
+      {
+        "id": "2c95d84233633b141a476aa47214cd95048af3d7",
+        "address": "65.109.28.226:18656",
+	      "provider": "Hexnodes"
       }
     ]
   },
@@ -87,6 +92,11 @@
         "address": "https://terp-mainnet-rpc.itrocket.net:443",
         "provider": "itrocket.net"
 
+      },
+      {
+        "address": "https://rpc.terpnetwork.hexnodes.co:443",
+        "provider": "Hexnodes"
+
       }
     ],
     "rest": [
@@ -105,6 +115,10 @@
       {
         "address": "https://terp-mainnet-api.itrocket.net:443",
         "provider": "itrocket.net"
+      },
+      {
+        "address": "https://lcd.terpnetwork.hexnodes.co:443",
+        "provider": "Hexnodes"
       }
     ],
     "grpc": [
@@ -115,6 +129,10 @@
       {
         "address": "terp-mainnet-grpc.itrocket.net:13090",
         "provider": "itrocket.net"
+      },
+      {
+        "address": "grpc.terpnetwork.hexnodes.co:18090",
+        "provider": "Hexnodes"
       }
     ]
   },
