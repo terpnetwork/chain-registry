@@ -8,9 +8,24 @@
   "chain_id": "morocco-1",
   "bech32_prefix": "terp",
   "slip44": 118,
-  "daemon_name": "terp",
+  "daemon_name": "terpd",
   "node_home": "$HOME/.terp",
   "codebase": {
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.4",
+      "tag": "v0.53.4-pfm-upgrade",
+      "repo": "https://github.com/permissionlessweb/cosmos-sdk"
+    },
+    "cosmwasm": {
+      "version": "0.61.4",
+      "enabled": true,
+      "path": "$HOME/.terp/wasm"
+    },
+    "ibc": {
+      "type": "go",
+      "version": "v10.3.0"
+    },
     "git_repo": "https://github.com/terpnetwork/terp-core.git",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/terpnetwork/networks/main/mainnet/morocco-1/genesis.json"
